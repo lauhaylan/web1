@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilocontaco.css">
+    <link rel="stylesheet" href="css/mediaquerie.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/validaciones.js"></script>
+</head> 
+<body>
+    <header>
+        <section class="encabezado">
+            <article class="logo-redes">
+                <div>
+                    <img src="img/iso.png" alt="logo" class="logo">
+                </div>
+                <div class="redes-sociales-header">
+                    <img src="img/facebook.png" alt="" class="redes-sociales">
+                    <img src="img/instagram.png" alt="" class="redes-sociales">
+                    <img src="img/linkedin.png" alt="" class="redes-sociales">
+                </div>
+            </article>                   
+        <section>     
+        <nav class="menu">
+            <ul >
+                <li> <a href="index.html"> Home</a></li>
+                <li> <a href="nosotros.html"> Nosotros</a></li>
+                <li><a href="establecimientos.html">Establecimientos</a></li>
+                <li>  <a href="inscripcion.html">Inscripcion</a> </li>
+                <li>  <a href="calendario.html">Calendario</a> </li>
+                <li>  <a href="contacto.html">Contacto</a> </li>
+            </ul>
+        </nav>
+        <a class="desplegable"></a>
+        </section>
+    </header>
+
+    <main>
+        <div class="vacio"></div>
+        <h2 class="titulo">Contáctanos</h2>
+        <section>
+            <article class="contacto">
+                <p>Contamos con una variedad de cursos de distintos idiomas, envianos tu consulta para saber mas y formar parte de nuestra institucion. te estamos esperando</p>
+            </article>
+        </section>
+        <section class="contenedor">
+            <form action="#" name="form" id="form">
+                <div>
+                    <input type="text" name="Nombre" id="nombre" placeholder="Nombre">
+                    
+                    <input type="text" name="Apellido" id="apellido" placeholder="Apellido">
+
+                    <input type="text" name="miemail" id="miemail" placeholder="Email">
+                    
+                    <input type="text" name="Numero de telefono" id="telefono" placeholder="Telefono">     
+                </div>
+                
+                <textarea name="consultas" id="consultas" cols="30" rows="10" placeholder="Ingrese aqui su consulta"></textarea>
+                <div id="contador"></div>
+                <div id="restantes"></div> 
+                    <br>  
+                    <br>
+                    <input id="printbtn" type="submit" value="enviar">
+                    <div id="mensaje" class="error"></div>
+            </form>            
+        </section>
+        <article id="contenedorPopup">
+            <a id="abrir"></a>
+            <article class="modal">
+                <h2>Envío Exitoso</h2>
+                <a id="cerrar">Cerrar</a>
+            </article>
+        </article>
+
+        <br>
+        <article class="contacto">  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3341.393944899646!2d-64.35344839730185!3d-33.1250136179924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d200122fac7369%3A0xc1f1a21603a91b5d!2zQ29sw7NuIDI0MywgWDU4MDBES0UgUsOtbyBDdWFydG8sIEPDs3Jkb2Jh!5e0!3m2!1ses-419!2sar!4v1632837729085!5m2!1ses-419!2sar" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </article>
+    </main>
+    <footer class="footer">
+        <section>
+            <ul>
+                <li>38266294 - Walter Piedrabuena</li>
+                <li>29863001 - Laura Haylan</li>
+                <li>39849704 - German Haylan</li>
+            </ul>
+        </section>
+        <section>
+            <ul>
+             <li> <a href="index.html"> Home</a></li>
+             <li><a href="establecimientos.html">Establecimientos</a></li>
+             <li>  <a href="inscripcion.html">Inscripcion</a> </li>
+             <li>  <a href="calendario.html">Calendario</a> </li>
+             <li>  <a href="contacto.html">Contacto</a> </li>
+             </ul>
+        </section>
+        <section>
+            <img src="img/facebook.png" alt="">
+            <img src="img/instagram.png" alt="">
+            <img src="img/linkedin.png" alt="">
+        </section>
+     </footer>
+</body>
+</html>

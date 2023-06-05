@@ -1,0 +1,219 @@
+.contenedorSlider section{
+    display: inline;
+    position:relative;
+}
+.banner{
+    background-size: cover;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.banderas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   /*margin-bottom: 20px;
+    margin-top: 80px;*/
+}
+.banderas img{
+    width: 40px;
+}
+.informacion, .plandeestudio{
+    padding: 10px 15px;
+    /*display: flex;*/
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pasos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+.pasos ul {
+    margin: 20px 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+.pasos ul li{
+    margin: 15px;
+    width: 130px;
+    height: 130px;
+    padding: 5px;    
+    text-align: center;
+    list-style: none;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    }
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    }
+.btn_inscripcion{
+    display: inline-block;
+    margin: 5px;
+    background-color: #878787;
+    padding: 0.7em;
+    font-size: 0.8em;
+    opacity: 0.7;
+    transition: opacity 1s, transform 1s;
+    border-radius: 10px;
+    }
+.btn_inscripcion a{
+    color: white;
+    text-decoration: none;
+    }
+.btn_inscripcion:hover{
+    opacity: 1;
+    transform: scale(1.2);
+}
+.btn_inscripcion a:hover{
+    color: #ffc900;
+    }
+.sedes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.boxsede1, .boxsede2, .boxsede3, .boxsede4{
+    position: relative;
+}
+.sedes img{
+    width: 200px;
+    height: 150px;
+    background-size: contain;
+    border-radius: 20px;
+}
+.sede1, .sede2, .sede3, .sede4{
+    display: inline-block;
+    font-size: 0.8em;
+    }
+.sede1 h4, .sede2 h4, .sede3 h4, .sede4 h4{
+    position: absolute;
+    top: 80%;
+    bottom: 20%;
+    left: 30%;
+    right: 10%;
+    color: white;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
+    text-align: right;
+    }
+.contenedor2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+.contenedor2 p{
+    font-size: 1em;
+}
+.formTuCurso{
+    margin: auto;
+    padding: 10px;
+}
+.tucurso{
+    font-size: 0.7em;
+}
+.tucurso select{
+    width: 200px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: rgb(168, 168, 168);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.tucurso input{
+    width: 200px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: rgb(168, 168, 168);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.contenedor3{
+    display: block;
+}
+.chat{
+    width: 40px;
+    height: 40px;
+    background-color: teal;
+    border-radius: 50%;
+    align-items: center;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 120px;
+    right: 50px;
+    z-index: 5;
+}
+.chat:hover{
+    opacity: 1;
+}
+.chat a{
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    padding: 10px;
+   }
+   .mapasParaOcultarResponsive{
+    display:none;
+} 
+   #establecimientosFiltro{
+    display: block;
+}
+#paso1{
+    background-image: url(../img/paso1a.png);
+    }
+#paso2{
+    background-image: url(../img/paso2a.png);
+    }
+#paso3{
+    background-image: url(../img/paso3a.png);     
+}
+#paso4{
+    background-image: url(../img/paso4a.png);     
+}
+#paso5{
+    background-image: url(../img/paso5a.png);    
+    }
+#paso6{
+    background-image: url(../img/paso6a.png);
+    }
+#paso1, #paso2, #paso3, #paso4, #paso5, #paso6{
+    font-size: 1em;
+    opacity: 0.8;  
+    }
+#paso1 p,  #paso2 p, #paso3 p, #paso4 p, #paso5 p, #paso6 p{
+    position: absolute;
+    top: 20%;
+    bottom: 20%;
+    left: 20%;
+}
+#paso3 p{
+    left: 25%;
+}
+#paso4 p{
+    left: 15%;
+}
+#paso5 p{
+    left: 5%;
+    top: 20%;
+}
+#sedesIndex{
+    margin: 10px 5px;
+}
+.bannerpromo{
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+}
+#logo_nativo{
+    margin-left: 70px;
+}
+
+/**/

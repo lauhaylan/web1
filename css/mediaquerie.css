@@ -1,0 +1,121 @@
+@media screen and (max-width: 768px){
+ p{
+    margin-left: 0%;
+    margin-right: 0%;
+ }
+ .contenedor{
+    padding-left: 0%;
+    padding-right: 0%;
+ }   
+ .contenedor input {
+     margin: 5px;
+ }
+ .modal{
+     font-size: 0.7em;
+ }
+ .modal h2{
+     font-size: 1.2em;
+ }
+ .caracteristicas{
+     flex-direction: column;
+     justify-content: space-between;
+     padding: 10px 5px;
+ }
+ .caracteristicas article{
+     width: 90%;
+ }
+ .formulario_inscripcion{
+    padding-left: 10px;
+    padding-right: 10px;
+ }
+ ul.pasos_de_inscripcion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bannerpromo{
+    display: none;
+}
+ 
+}
+@media screen and (max-width: 425px) {
+    .formulario_inscripcion{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .formulario_inscripcion p{
+        width: 100%;
+    }
+
+    #contenedorEstablecimiento{
+        padding-left: 0%;
+        padding-right: 0%;
+        display: flex;
+        flex-direction: column;
+     }
+    #provincia, #idioma, #establecimiento, #filtrar{
+        width: 70%;
+        margin: auto;
+    }
+
+}
+@media screen and (min-width:47em){
+
+    .informacion, .plandeestudio{
+        padding: 10px 15px;
+        display: flex;
+        flex-direction: row;
+    }
+    .informacion img{
+        display: block;
+        margin:auto;
+        width: auto;
+    }
+    .bannerpromo{
+            box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+    }
+    nav.menu{
+        display: flex;
+        flex-direction: column;
+
+    }
+    a.desplegable{
+        display : none;
+    }
+ 
+    .banderas img{
+        width: 90px;
+    }
+
+    .menu ul{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (max-width:25em){
+       
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .plandeestudio{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    .img_profe_alumno{
+        padding-top: 10%;
+    }
+    ul.pasos_de_inscripcion{
+        display:block;
+        margin: auto;
+        justify-content: center;
+      
+    }
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/mediaquerie.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/filtroestablecimiento.js"></script>
+    <title>Establecimientos</title>
+</head>
+<body>
+    <header>
+        <section class="encabezado">
+            <article class="logo-redes">
+                <div>
+                    <img src="img/iso.png" alt="logo" class="logo">
+                </div>
+                <div class="redes-sociales-header">
+                    <img src="img/facebook.png" alt="" class="redes-sociales">
+                    <img src="img/instagram.png" alt="" class="redes-sociales">
+                    <img src="img/linkedin.png" alt="" class="redes-sociales">
+                </div>
+            </article>                   
+        <section>     
+        <nav class="menu">
+            <ul >
+                <li> <a href="index.html"> Home</a></li>
+                <li> <a href="nosotros.html"> Nosotros</a></li>
+                <li><a href="establecimientos.html">Establecimientos</a></li>
+                <li>  <a href="inscripcion.html">Inscripcion</a> </li>
+                <li>  <a href="calendario.html">Calendario</a> </li>
+                <li>  <a href="contacto.html">Contacto</a> </li>
+            </ul>
+        </nav>
+        <a class="desplegable"></a>
+        </section>
+    </header>
+       <main>
+        <div class="vacio"></div>
+        <h2>ESTABLECIMIENTOS</h2>
+        
+        <section id="contenedorEstablecimiento">
+            <select id="provincia">
+                <option value="0"></option>
+                <option value="Buenos Aires">Buenos Aires</option>
+                <option value="Cordoba">Cordoba</option>
+                <option value="La Pampa">La Pampa</option>
+                <option value="Santa Fe">Santa Fe</option>
+            </select>  
+            <select id="establecimiento">
+                <option value="0"></option>
+                <option value="Buenos Aires">Buenos Aires</option>
+                <option value="La Costa">La Costa</option>
+                <option value="Rio Cuarto">Rio Cuarto</option>
+                <option value="Santa Rosa">Santa Rosa</option>
+                <option value="Rosario">Rosario</option>
+            </select>
+            <button id="filtrar">Filtrar</button>
+            <section id="sedes"></section>
+        </section>        
+    </main>
+    <footer class="footer">
+       <section>
+           <ul>
+               <li>Walter Piedrabuena</li>
+               <li>Laura Haylan</li>
+               <li>German Haylan</li>
+           </ul>
+       </section>
+       <section>
+           <ul>
+            <li> <a href="index.html"> Home</a></li>
+            <li><a href="establecimientos.html">Establecimientos</a></li>
+            <li>  <a href="inscripcion.html">Inscripcion</a> </li>
+            <li>  <a href="calendario.html">Calendario</a> </li>
+            <li>  <a href="contacto.html">Contacto</a> </li>
+            </ul>
+       </section>
+       <section>
+           <img src="img/facebook.png" alt="">
+           <img src="img/instagram.png" alt="">
+           <img src="img/linkedin.png" alt="">
+       </section>
+    </footer>
+</body>
+</html>

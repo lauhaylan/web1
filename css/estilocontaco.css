@@ -1,0 +1,72 @@
+.titulo{
+    text-align: center;
+    padding: 2%;
+}
+
+.contacto{
+
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+
+.contenedor input{
+    border-radius: 10px;
+    width: 40%;
+    padding: 5px;
+    margin: 20px;
+}
+
+
+.contenedor textarea{
+    border-radius: 10px;
+    width: 100%;
+    padding: 5 px;
+    margin: 20px;
+}
+
+p{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5px;
+}
+
+iframe{
+    width: 100%;
+    border-radius: 10px;
+}
+.error{
+    color: crimson;
+    font-style: italic;
+    font-weight: bold;
+}
+#contador, #restantes{
+    font-size: 0.8em;
+    color: rgb(57, 57, 65);
+}
+.modal{
+    display: none;
+    background-color: darkgray;
+    color: #fff;
+    border-radius: 10px;
+    position: fixed;
+    height: 150px;
+    width:30%;
+    text-align: center;
+    z-index: 2;
+    top:200px;
+    right: 35%;
+    left: 35%;
+}
